@@ -11,7 +11,12 @@ See images show training different models, and their results: <br>
 
 ![image](./images/mlp_binary.png)
 
-> Multi-layer perceptron (Feed forward neural network) for binary classification - 93.2% accuracy <br>
+> Multi-layer perceptron for binary classification - 93.2% accuracy <br>
+
+
+![image](./images/multi_class_feed_forward_accuracy_training_best_model.png)
+
+> Multi-class feed forward neural network with high accuracy 
 
 
 ## Results from comparing models
@@ -51,19 +56,19 @@ Classifier                         Training Set        Validation Set      Test 
 ====================================================================================================
 One-vs-Rest Classifier             0.7830              0.8260              0.7680              
 Multinomial Logistic Regression    0.6710              0.7380              0.6600              
-Multi-Class Neural Network         0.5820              0.5380              0.5400              
+Multi-Class Neural Network         0.8690              0.8760              0.8460              
 
 Precision
 Classifier                         Training Set        Validation Set      Test Set            
 ====================================================================================================
 One-vs-Rest Classifier             0.7830              0.8260              0.7680              
 Multinomial Logistic Regression    0.6710              0.7380              0.6600              
-Multi-Class Neural Network         0.5820              0.5380              0.5400              
+Multi-Class Neural Network         0.8690              0.8760              0.8460              
 
 Recall
 Classifier                         Training Set        Validation Set      Test Set            
 ====================================================================================================
 One-vs-Rest Classifier             0.7830              0.8260              0.7680              
 Multinomial Logistic Regression    0.6710              0.7380              0.6600              
-Multi-Class Neural Network         0.7167              0.7005              0.6683              
+Multi-Class Neural Network         0.8690              0.8760              0.8460              
 ```
