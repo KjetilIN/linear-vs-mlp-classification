@@ -42,3 +42,28 @@ Linear Regression        0.6494              0.7273              0.6294
 Logistic Regression      0.6296              0.6970              0.6193              
 Multi-Layer Classifier   0.9481              0.9646              0.9442              
 ```
+
+### Multi-Class Classification
+
+```text
+Accuracy
+Classifier                         Training Set        Validation Set      Test Set            
+====================================================================================================
+One-vs-Rest Classifier             0.7830              0.8260              0.7680              
+Multinomial Logistic Regression    0.6710              0.7380              0.6600              
+Multi-Class Neural Network         0.5820              0.5380              0.5400              
+
+Precision
+Classifier                         Training Set        Validation Set      Test Set            
+====================================================================================================
+One-vs-Rest Classifier             0.7830              0.8260              0.7680              
+Multinomial Logistic Regression    0.6710              0.7380              0.6600              
+Multi-Class Neural Network         0.5820              0.5380              0.5400              
+
+Recall
+Classifier                         Training Set        Validation Set      Test Set            
+====================================================================================================
+One-vs-Rest Classifier             0.7830              0.8260              0.7680              
+Multinomial Logistic Regression    0.6710              0.7380              0.6600              
+Multi-Class Neural Network         0.7167              0.7005              0.6683              
+```
