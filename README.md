@@ -12,3 +12,33 @@ See images show training different models, and their results: <br>
 ![image](./images/mlp_binary.png)
 
 > Multi-layer perceptron (Feed forward neural network) for binary classification - 93.2% accuracy <br>
+
+
+## Results from comparing models
+
+Here are the result from comparing the different types of classifiers on both a binary dataset and a multi-class dataset.
+
+### Binary Classification
+
+```text
+Accuracy
+Classifier               Training Set        Validation Set      Test Set            
+================================================================================
+Linear Regression        0.7210              0.7600              0.7200              
+Logistic Regression      0.7200              0.7540              0.7240              
+Multi-Layer Classifier   0.9360              0.9360              0.9020              
+
+Precision
+Classifier               Training Set        Validation Set      Test Set            
+================================================================================
+Linear Regression        0.6575              0.6857              0.6492              
+Logistic Regression      0.6623              0.6866              0.6595              
+Multi-Layer Classifier   0.8477              0.8843              0.8304              
+
+Recall
+Classifier               Training Set        Validation Set      Test Set            
+================================================================================
+Linear Regression        0.6494              0.7273              0.6294              
+Logistic Regression      0.6296              0.6970              0.6193              
+Multi-Layer Classifier   0.9481              0.9646              0.9442              
+```
